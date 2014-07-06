@@ -5,9 +5,11 @@ kentya6-sezemi-2014-readable-code-2
 
 使用言語：Java
 
+レシピデータとしてJSONを使用しています。
+ライブラリはjson-simpleを使用しています。
 
 ###コンパイル方法
-$ javac Main.java
+$ javac -classpath json-simple-1.1.1.jar Main.java
 
 ###実行方法
-$ java Main
+$ java -classpath .:json-simple-1.1.1.jar Main
